@@ -1,0 +1,42 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+theme = "hugo-theme-terminal"
+
+[params]
+  contentTypeName = "home"
+  themeColor = "green"
+  showMenuItems = 3
+  fullWidthTheme = false
+  centerTheme = false
+
+[languages]
+  [languages.en]
+    title = "Mehdi"
+    subtitle = "A simple, retro theme for Hugo"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Lost Terminal"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "blogs"
+        name = "Blogs"
+        url = "/blogs"
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 1
+      
