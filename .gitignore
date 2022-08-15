@@ -6,11 +6,6 @@
 # configuration files etc., in your project's repository. You just don't.
 
 
-!.gitignore
-!content/
-!*.toml
-!static/
-
 #OS
 .DS_Store
 
@@ -18,6 +13,10 @@
 # and "themes" directories.
 content/blogs
 themes/*
+archetypes/*
+public/*
+static/*
+
 
 # uncomment below if you dont want to load static img resources
 # !static/img
