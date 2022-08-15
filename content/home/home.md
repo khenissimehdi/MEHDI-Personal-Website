@@ -6,8 +6,13 @@ showFullContent = true
 readingTime = false
 hideComments = false
 +++
+{{< js_wc >}} 
+
 
 My name is Mehdi Khenissi and Im ``Software Enginnering`` student at the [Esipe](https://esipe.univ-gustave-eiffel.fr/) school, Im also an apprentice at [FairlyMade](https://www.fairlymade.com/) as a ``DevSecOps``.
+
+
+
 
 ```
 Life
