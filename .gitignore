@@ -9,17 +9,8 @@
 #OS
 .DS_Store
 
-# Ignore everything in the "content" directory,
-# and "themes" directories.
+
 content/blogs
 themes/*
 archetypes/*
-public/*
-static/*
 
-
-# uncomment below if you dont want to load static img resources
-# !static/img
-
-# uncomment below if you are migrating from WordPress
-# static/wp-content/*
